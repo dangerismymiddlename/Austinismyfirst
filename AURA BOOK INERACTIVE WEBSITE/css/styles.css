@@ -1,0 +1,167 @@
+html {
+    box-sizing:border-box;
+    background-color: white;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+p {
+  color: ;
+  font-family: ligurino;
+}
+
+img {
+    max-width: 100%;
+}
+
+.move {
+	width: 68px;
+	height: 20px;
+	background: transparent;
+  font-family: ligurino;
+  background-color: #f0e68c;
+  color: #dd3b6e;
+	position: relative;
+	z-index: 3;
+  right: -450px;
+  top: 110px;
+	cursor: grab;
+}
+
+
+
+.fronttext {
+position: center;
+}
+
+
+
+.ESSENTIAL {
+  font-size: 17px;
+  font-family: ligurino;
+  color: #f0e68c;
+  position: relative;
+  z-index: 1;
+  right: -609px;
+  top: 70px;
+}
+
+
+
+.protect {
+  position: relative;
+  right: -588px;
+  top: 190px;
+  z-index: 1;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1.2px;
+  border: white 1px transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 230px;
+  height: 90px;
+  animation: type 6s steps(80);
+}
+.protect:hover{
+  filter: brightness(0);
+}
+@keyframes type  {
+ 0%   { width: 0px; }
+ 100% { width: 204px; }
+
+}
+
+
+.dash{
+  color: #f0e68c;
+  font-size: 110px;
+  position: relative;
+  right: -685px;
+  top: 265px;
+}
+
+  .target {
+  	width: 280px;
+  	height: 90px;
+    font-family: ligurino;
+    color: #f0e68c;
+    font-size: 60px;
+  	background: transparent;
+  	position: relative;
+    right: -610px;
+    top: 330px;
+    z-index: 1;
+  }
+
+
+
+  .moved {
+    background: transparent;
+    color: #563ab0;
+    font-style: normal;
+    z-index: 3;
+  }
+
+
+
+  .finish{
+    background: transparent;
+  }
+
+.hamraz {
+  font-family: ligurino;
+  color: #f0e68c;
+  font-size: 30px;
+  position: relative;
+  right: -595px;
+  top: 260px;
+  z-index: 3;
+}
+
+  .square {
+    width: 600px;
+    height: 600px;
+  position: relative;
+    background-color: #dd3b6e;
+    z-index: 0;
+    right: -415px;
+    top: 700px;
+    box-shadow: 10px 10px 10px #888888;
+  }
+
+
+  .up {
+ background: ;
+ /* float: right; */
+ margin: 8px 0 0 20px;
+ padding: 4px;
+ position: absolute;
+ top: 760px;
+ right: 235px;
+  }
+
+  .down {
+ background:;
+ /* float: right; */
+ margin: 8px 0 0 20px;
+ padding: 4px;
+ position: absolute;
+ top: 870px;
+ right: 235px;
+  }
+
+  .circle {
+ background: ;
+ /* float: right; */
+ margin: 8px 0 0 20px;
+ padding: 4px;
+ position: absolute;
+ top: 1000px;
+ right: 230px;
+ z-index: 0;
+  }
